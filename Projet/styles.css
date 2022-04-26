@@ -103,6 +103,19 @@ body {
     list-style: none;
 }
 
+/*Contact section*/
+.home-contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.home-contact-form-line {
+    justify-content: space-between;
+}
+
+
+
 /* Footer */
 footer {
     padding: 5px 0 5px 0;
