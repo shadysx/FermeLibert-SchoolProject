@@ -21,6 +21,10 @@
     margin: 0 300px;
 }
 
+img {
+    cursor: pointer;
+}
+
 .image-container {
     background-size: cover;
     height: 75vh;
@@ -129,6 +133,23 @@
     width: 100%;
 }
 
+.galery-section-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galery-section-image {
+    flex-basis: 50%;
+}
+
+.galery-section-container img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 .sponsors-section-image img {
     width: 100%;
 }
@@ -225,4 +246,22 @@ a {
 
     a:hover::before {
         width:100%;
+}
+
+/* lightbox */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .50);
+    display: none;
+}
+
+#lightbox.active {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
