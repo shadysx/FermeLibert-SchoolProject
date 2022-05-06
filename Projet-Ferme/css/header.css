@@ -1,0 +1,45 @@
+.image-container {
+    background-size: cover;
+    height: 75vh;
+    background-image: url("../images/loose.jpg");
+} 
+
+.image-container-tarifs {
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    background-image: url("../images/tarifs.jpg");
+}
+
+.navbar-container {
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container ul {
+    list-style: none;
+}
+
+.navbar-container li {
+    margin-left: 20px;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color :white;
+    font-weight: 600;
+}
+
+.image-floating-text-container {
+    height: 100%;
+    justify-content: center;
+    margin : 0 0 0 300px;
+}
+
+.image-floating-text-container h1 {
+    color: black;
+    font-size: 35px;
+}

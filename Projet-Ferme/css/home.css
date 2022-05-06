@@ -1,0 +1,148 @@
+.news-section {
+    margin: 60px 0 0 0;
+}
+
+.news-section img {
+    width: 100%;
+}
+
+.news-section p {
+   margin: 0 0 0 0; 
+   color: white;
+   font-size: 20px;
+}
+
+
+
+.news-article {
+    padding: 15px;
+    margin: 60px 0 60px 0;
+    border-radius: 5px;
+    background-color: #fa6400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.news-article-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.news-article-footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.presentation-section {
+
+
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.presentation-section-container {
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-wrap: wrap;
+}
+
+.presentation-section-left {
+    flex-basis: 50%;
+}
+
+.presentation-section-right {
+    padding: 10px;
+    flex-basis: 50%;
+    font-size: 1.35em;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.presentation-section-left img {
+    width: 100%;
+}
+
+.galery-section-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galery-section-image {
+    flex-basis: 50%;
+}
+
+.galery-section-container img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* TABLET */
+@media screen and (min-width: 200px) {
+    .sections-container {
+        margin: 0 30px;
+    }
+    .presentation-section-left {
+        flex-basis: 100%;
+    }
+    .presentation-section-right {
+        flex-basis: 100%;
+    }
+}
+
+
+/*TABLET*/
+@media screen and (min-width: 800px) {
+    .sections-container {
+        margin: 0 100px;
+    }
+    .galery-section-image img{
+        height: 300px;
+    }
+    .presentation-section-left {
+        flex-basis: 100%;
+    }
+    .presentation-section-right {
+        flex-basis: 100%;
+    }
+}
+
+
+
+/*PC*/
+@media screen and (min-width: 1390px) {
+    .sections-container {
+        margin: 0 150px;
+    }
+    .galery-section-image img{
+
+        height: 400px;
+    }
+    .presentation-section-left {
+        flex-basis: 100%;
+    }
+    .presentation-section-right {
+        flex-basis: 100%;
+    }
+}
+
+/*PC*/
+@media screen and (min-width: 1800px) {
+    .sections-container {
+        margin: 0 150px;
+    }
+    .galery-section-image img{
+
+        height: 400px;
+    }
+    .presentation-section-left {
+        flex-basis: 50%;
+    }
+    .presentation-section-right {
+        flex-basis: 50%;
+    }
+}
+
+

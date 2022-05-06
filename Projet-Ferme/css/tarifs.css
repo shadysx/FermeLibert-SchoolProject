@@ -1,0 +1,90 @@
+
+
+.section-tarifs-presentation-container {
+    flex-wrap: wrap;
+}
+
+.section-tarifs-presentation-left {
+    flex-basis: 50%;
+}
+
+.section-tarifs-presentation-left img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.section-tarifs-presentation-right {
+    flex-basis: 50%;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    min-width: 100% ;
+}
+
+.content-table thead tr {
+    background-color: #fa6400;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 200px) {
+    .sections-container {
+        margin: 0 30px;
+    }
+    .section-tarifs-presentation-left {
+        flex-basis: 100%;
+    }
+    .section-tarifs-presentation-right{
+        flex-basis: 100%;
+    }
+    .section-tarifs-presentation-container-2 {
+
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 1390px) {
+    .sections-container {
+        margin: 0 100px;
+    }
+    
+    .section-tarifs-presentation-left {
+        flex-basis: 50%;
+    }
+    .section-tarifs-presentation-right{
+        flex-basis: 50%;
+    }
+    .section-tarifs-presentation-container-2 {
+
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .sections-container {
+        margin: 0 250px
+    }
+ 
+}
