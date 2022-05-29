@@ -18,7 +18,7 @@
 
 .header-left iframe {
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
 .contact-text-container {
@@ -27,7 +27,7 @@
 }
 
 .contact-text {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .sections-container {
