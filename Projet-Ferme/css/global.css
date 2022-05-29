@@ -3,6 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    align-items: center;
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
@@ -16,15 +36,17 @@
 }
 
 .sections-container {
-    margin: 0 50px;
+    margin: 0 100px;
+    max-width: 1200px;
 }
+
 
 img {
     cursor: pointer;
 }
 
 h1 {
-    color: black;
+    color: white;
 }
 
 .link {
@@ -36,6 +58,7 @@ h1 {
 
 
 .section-title {
+    flex-basis: 100%;
     font-size: 50px;
     margin-bottom: 60px;
     color: black;
@@ -158,8 +181,16 @@ h1 {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
 
 
+@media screen and (max-width: 3000px) {
+    .body-wrapper {
+        margin: 0 100px;
+    }
+}
 
 
 

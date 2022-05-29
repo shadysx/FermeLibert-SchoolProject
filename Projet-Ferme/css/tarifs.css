@@ -7,18 +7,26 @@
 .section-tarifs-presentation-left {
     flex-basis: 50%;
 }
-
+.section-tarifs-presentation-left-2 {
+    flex-basis: 50%;
+}
 .section-tarifs-presentation-left img {
     width: 100%;
     height: auto;
     background-size: cover;
 }
+.section-tarifs-presentation-left-2 img {
+    width: 100%;
+    height: auto;
+    max-height: 330px;
+    object-fit: cover;
+}
 
 .section-tarifs-presentation-right {
     flex-basis: 50%;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
-    font-size: 25px;
+    font-size: 28px;
     text-align: justify;
 }
 
@@ -49,10 +57,11 @@
     background-color: #f3f3f3;
 }
 
+#bottom-button {
+    margin-bottom: 100px;
+}
+
 @media screen and (min-width: 200px) {
-    .sections-container {
-        margin: 0 30px;
-    }
     .section-tarifs-presentation-left {
         flex-basis: 100%;
     }
@@ -65,11 +74,7 @@
     }
 }
 
-@media screen and (min-width: 1390px) {
-    .sections-container {
-        margin: 0 100px;
-    }
-    
+@media screen and (min-width: 1400px) {
     .section-tarifs-presentation-left {
         flex-basis: 50%;
     }
@@ -82,9 +87,5 @@
     }
 }
 
-@media screen and (min-width: 1500px) {
-    .sections-container {
-        margin: 0 250px
-    }
- 
-}
+
+

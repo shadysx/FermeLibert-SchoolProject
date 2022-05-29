@@ -34,13 +34,12 @@
 
 .presentation-section {
 
-
+    flex-wrap: wrap;
     border-radius: 5px;
     margin-bottom: 50px;
 }
 
 .presentation-section-container {
-    margin-top: 60px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     flex-wrap: wrap;
 }
@@ -52,13 +51,16 @@
 .presentation-section-right {
     padding: 10px;
     flex-basis: 50%;
-    font-size: 1.35em;
+    font-size: 1.23em;
+    justify-content: space-between;
     text-align: justify;
     font-weight: 500;
 }
 
 .presentation-section-left img {
     width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 .galery-section-container {
@@ -82,7 +84,6 @@
 /* TABLET */
 @media screen and (min-width: 200px) {
     .sections-container {
-        margin: 0 30px;
     }
     .presentation-section-left {
         flex-basis: 100%;
@@ -96,7 +97,6 @@
 /*TABLET*/
 @media screen and (min-width: 800px) {
     .sections-container {
-        margin: 0 100px;
     }
     .galery-section-image img{
         height: 300px;
@@ -112,30 +112,28 @@
 
 
 /*PC*/
-@media screen and (min-width: 1390px) {
+@media screen and (min-width: 1400px) {
     .sections-container {
-        margin: 0 150px;
     }
     .galery-section-image img{
 
-        height: 400px;
+        height: 350px;
     }
     .presentation-section-left {
-        flex-basis: 100%;
+        flex-basis: 50%;
     }
     .presentation-section-right {
-        flex-basis: 100%;
+        flex-basis: 50%;
     }
 }
 
 /*PC*/
 @media screen and (min-width: 1800px) {
     .sections-container {
-        margin: 0 150px;
     }
     .galery-section-image img{
 
-        height: 400px;
+        height: 350px;
     }
     .presentation-section-left {
         flex-basis: 50%;

@@ -1,16 +1,35 @@
 .image-container {
+    width: 100%;
     background-size: cover;
+    background-position: center;
     height: 75vh;
     background-image: url("../images/loose.jpg");
 } 
 
 .image-container-tarifs {
+    width: 100%;
     background-size: cover;
-    background-position: center;
-    height: 45vh;
-    background-image: url("../images/tarifs.jpg");
+    background-position: bottom;
+    height: 75vh;
+    background-image: url("../images/media18.jpeg");
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
+.image-container-media {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+    background-image: url("../images/media2.jpeg");
+}
+
+.image-container-contact {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+    background-image: url("../images/media12.jpeg");
+}
 .navbar-container {
     height: 60px;
     justify-content: center;
@@ -36,10 +55,21 @@
 .image-floating-text-container {
     height: 100%;
     justify-content: center;
-    margin : 0 0 0 300px;
+    align-items: flex-start;
+    margin-left:  15%;
 }
 
 .image-floating-text-container h1 {
-    color: black;
-    font-size: 35px;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar-container {
+       height: 100px; 
+    }
+    .image-floating-text-container h1 {
+        font-size: 60px;
+    }
 }
