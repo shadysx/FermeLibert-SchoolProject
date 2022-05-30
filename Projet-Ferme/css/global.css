@@ -55,8 +55,6 @@ h1 {
 }
 
 
-
-
 .section-title {
     flex-basis: 100%;
     font-size: 50px;
@@ -70,6 +68,10 @@ h1 {
     color:#fa6400;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
